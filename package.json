@@ -1,0 +1,58 @@
+{
+  "name": "multiple-instances",
+  "version": "0.0.1",
+  "description": "test multiple node.js instances and inter process comunication",
+  "main": "src/test-server/app.js",
+  "scripts": {
+    "start": "node src/test-server/app.js",
+    "test": "./node_modules/.bin/mocha test/**/*.spec.js"
+  },
+  "engines": {
+    "node": ">= 0.10.0",
+    "iojs": ">= 1.7.0",
+    "npm": ">= 2.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bruce17/test-message-bus"
+  },
+  "keywords": [
+    "nodejs",
+    "senaca",
+    "spur-ioc",
+    "ioc",
+    "di",
+    "bus",
+    "mocha",
+    "sinon",
+    "chai"
+  ],
+  "author": {
+    "name": "Michael Raith",
+    "email": "mia87@web.de",
+    "url": "https://github.com/Bruce17"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "chai-as-promised": "^5.0.0",
+    "eslint": "^0.19.0",
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^0.9.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-spawn-mocha": "^2.0.1",
+    "nodemon": "^1.3.7",
+    "sinon": "^1.14.1",
+    "sinon-chai": "^2.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.3",
+    "config": "^1.12.0",
+    "cookie-parser": "^1.3.4",
+    "express": "^4.12.3",
+    "lodash": "^3.7.0",
+    "method-override": "^2.3.2",
+    "node-redis-rpc": "^1.0.6",
+    "spur-ioc": "^0.1.1"
+  }
+}

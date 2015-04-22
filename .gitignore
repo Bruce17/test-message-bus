@@ -1,0 +1,8 @@
+# misc files
+.idea
+
+# npm
+node_modules
+
+# unit tests
+coverage
